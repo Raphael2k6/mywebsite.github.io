@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Affordable and professional web design">
+        <meta name="keywords" content="Web design, affordable web design, professional web design">
+        <meta name="author" content="Raphael Donanu">
+        <title>Raphael Donanu | Services</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Raphael</span> Donanu</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="current"><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="newsletter">
+                <div class="container">
+                    <h1>Subscribe To Our News Letter</h1>
+                    <form action="action_page.php">
+                        <input type="email" placeholder="Enter Email..." name="email" required>
+                        <input class="button_1" id="subscribe" type="button" value="Subscribe"onclick="doFunction();">
+                    </form>
+                    <script>
+                        function doFunction() {
+                            alert ("Thank you for subscribing");
+                        }
+                    </script>
+                    </form>
+                </div>
+            </section>
+
+        
+
+        <section id="main">
+            <div class="container">
+               <article id="main-col">
+                   <h1 class="page-title">Services</h1>
+                   <ul>
+                       <li>
+                           <h3>Consulting</h3>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, voluptatum iste. Sed animi vero provident in nisi quos vitae, similique ad facilis officiis laboriosam eos asperiores repellendus? Minus, facere molestiae!</p>
+                            <p>pricing: $1,000 - $3,000</p>
+                        </li>
+                        <li>
+                                <h3>Speaking</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolore aspernatur dignissimos dicta praesentium repellat soluta. Rem, et tempore. Eligendi, perferendis quae dolorum quos dicta facilis voluptatem. Sapiente, dolores consequuntur.</p>               
+                                <p>pricing: $1,000 - $3,000</p>
+                             </li>
+                             <li>
+                                    <h3>Mentoring</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut! Illum quod qui, non aperiam perferendis et tempora, exercitationem incidunt praesentium, reiciendis sapiente culpa dolorem temporibus ab hic sequi illo?</p>                     
+                                     <p>pricing: $25 per month</p>
+                                 </li>
+                   </ul>
+               </article> 
+
+               <aside id="sidebar">
+                   <div class="dark">
+                   <h3>Book Raphael Donanu</h3>
+                 <form class="quote" action="action.php">
+                     <div>
+                         <label>Name</label><br>
+                         <input type="text" placeholder="First name" name="name" required>
+                         <br>
+                         <input type="text" placeholder="Last name" name="name" required>
+                     </div>
+                   <div>
+                        <label>Email</label><br>
+                        <input type="text" placeholder="Email address" name="email" required>
+                </div>
+                <div>
+                    <label>Message</label><br>
+                    <textarea placeholder="Message" name="messages" required></textarea>
+                </div>
+                <button class="button_1" type="submit">Send</button>
+                 </form>
+                   </div>
+               </aside>
+        
+            </div>
+        </section>
+
+        <footer>
+            <p>Raphael Donanu, Copyright &copy; 2019</p>
+        </footer>
+    </body>
+</html>
